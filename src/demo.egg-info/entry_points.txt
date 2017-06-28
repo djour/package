@@ -1,0 +1,13 @@
+[blogtool.parsers]
+.rst = some_module:a_func
+
+[console_scripts]
+bar = demo:test
+foo = demo:test
+
+[gui_scripts]
+baz = demo:test
+
+[setuptools.installation]
+eggsecutable = demo:test
+
